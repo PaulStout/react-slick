@@ -1,7 +1,8 @@
 'use strict';
 
 import React from 'react';
-import classnames from 'classnames';
+import createReactClass from 'create-react-class';
+import cliassnames from 'classnames';
 
 var getDotCount = function (spec) {
   var dots;
@@ -10,7 +11,7 @@ var getDotCount = function (spec) {
 };
 
 
-export var Dots = React.createClass({
+export var Dots = createReactClass({
 
   clickHandler: function (options, e) {
     // In Autoplay the focus stays on clicked button even after transition

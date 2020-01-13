@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import createReactClass from 'create-react-class';
 import assign from 'object-assign';
 import classnames from 'classnames';
 
@@ -140,7 +141,7 @@ var renderSlides = function (spec) {
 
 };
 
-export var Track = React.createClass({
+export var Track = createReactClass({
   render: function () {
     var slides = renderSlides.call(this, this.props);
     return (
