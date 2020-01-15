@@ -41,7 +41,7 @@
     "del": "^2.2.2",
     "enzyme": "^2.4.1",
     "es5-shim": "^4.5.9",
-    "eslint": "^3.6.1",
+    "eslint": ">=4.18.2",
     "eslint-plugin-react": "^6.3.0",
     "express": "^4.14.0",
     "foundation-apps": "^1.2.0",
@@ -59,7 +59,7 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.1"
+    "webpack-dev-server": ">=3.1.11"
   },
   "dependencies": {
     "classnames": "^2.2.5",
